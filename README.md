@@ -14,7 +14,7 @@ and your server list shows **"Under Maintenance"**. Turn it off and everything g
 
 ---
 
-## 1. Install (2 minutes)
+## 1. Install
 
 1. Go to the [Releases](../../releases) page and download the file ending in `.whl`
    (example: `endstone_endtenance-0.1.0-py3-none-any.whl`).
@@ -66,7 +66,7 @@ bypass_players = []
 | `description` | Smaller line under the title |
 | `change_motd` | `true` = change the server list text while maintenance is on |
 | `maintenance_motd` | The text shown in the server list during maintenance |
-| `bypass_players` | Names that may join during maintenance, e.g. `["Steve", "Alex"]` |
+| `bypass_players` | Names that may join during maintenance, e.g. `["DucklingWhooYT", "BoomGamer"]` |
 
 Tips:
 - Colour codes work, for example `title = "§cBack soon!"`.
@@ -132,7 +132,7 @@ Example: make the kick message red and white. In `_kick_message` change it to
 ### Build it yourself
 
 ```bash
-git clone https://github.com/YOUR_GITHUB_USERNAME/endtenance
+git clone https://github.com/ducklingwhoo/endtenance
 cd endtenance
 pip install build
 python -m build --wheel
@@ -151,4 +151,4 @@ Licensed under the [Apache License 2.0](LICENSE). You can use, change and share 
 If you share it or a modified version, you must keep the [LICENSE](LICENSE) and [NOTICE](NOTICE) files,
 which credit the original author, and mark files you changed.
 
-Copyright 2026 YOUR NAME
+Copyright 2026 Duckyy
