@@ -10,7 +10,7 @@ readme = "README.md"
 license = "Apache-2.0"
 license-files = ["LICENSE", "NOTICE"]
 requires-python = ">=3.11"
-authors = [{ name = "YOUR NAME" }]
+authors = [{ name = "Duckyy" }]
 keywords = ["endstone", "minecraft", "bedrock", "plugin", "maintenance"]
 classifiers = [
     "Programming Language :: Python :: 3",
@@ -19,8 +19,8 @@ classifiers = [
 dependencies = []
 
 [project.urls]
-Homepage = "https://github.com/YOUR_GITHUB_USERNAME/endtenance"
-Issues = "https://github.com/YOUR_GITHUB_USERNAME/endtenance/issues"
+Homepage = "https://github.com/ducklingwhoo/endtenance"
+Issues = "https://github.com/ducklingwhoo/endtenance/issues"
 
 [project.entry-points."endstone"]
 endtenance = "endstone_endtenance:EndtenancePlugin"
