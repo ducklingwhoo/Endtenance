@@ -1,0 +1,29 @@
+[build-system]
+requires = ["hatchling>=1.27"]
+build-backend = "hatchling.build"
+
+[project]
+name = "endstone-endtenance"
+version = "0.1.0"
+description = "Endtenance - A maintenance mode plugin for server owners"
+readme = "README.md"
+license = "Apache-2.0"
+license-files = ["LICENSE", "NOTICE"]
+requires-python = ">=3.11"
+authors = [{ name = "YOUR NAME" }]
+keywords = ["endstone", "minecraft", "bedrock", "plugin", "maintenance"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/YOUR_GITHUB_USERNAME/endtenance"
+Issues = "https://github.com/YOUR_GITHUB_USERNAME/endtenance/issues"
+
+[project.entry-points."endstone"]
+endtenance = "endstone_endtenance:EndtenancePlugin"
+
+[tool.hatch.build.targets.wheel]
+packages = ["endstone_endtenance"]
