@@ -70,8 +70,8 @@ class EndtenancePlugin(Plugin):
     version = "0.1.0"
     api_version = "0.11"
     description = "Endtenance - A maintenance mode plugin for server owners"
-    authors = ["YOUR NAME"]
-    website = "https://github.com/YOUR_GITHUB_USERNAME/endtenance"
+    authors = ["Duckyy"]
+    website = "https://github.com/ducklingwhoo/endtenance"
 
     commands = {
         "maintenance": {
@@ -256,7 +256,7 @@ class EndtenancePlugin(Plugin):
         else:
             sender.send_message("§eUsage: /maintenance <true|false|status|reload>")
         return True
-￼Enter# Copyright 2026 YOUR NAME
+￼Enter# Copyright 2026 Duckyy
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -328,8 +328,8 @@ class EndtenancePlugin(Plugin):
     version = "0.1.0"
     api_version = "0.11"
     description = "Endtenance - A maintenance mode plugin for server owners"
-    authors = ["YOUR NAME"]
-    website = "https://github.com/YOUR_GITHUB_USERNAME/endtenance"
+    authors = ["Duckyy"]
+    website = "https://github.com/ducklingwhoo/endtenance"
 
     commands = {
         "maintenance": {
