@@ -143,7 +143,6 @@ Your plugin file is now in `dist/`. Copy it to your server's `plugins/` folder a
 ## 9. Contributing
 
 Bug reports and pull requests are welcome, see [CONTRIBUTING.md](CONTRIBUTING.md).
-Maintainers: see [RELEASING.md](RELEASING.md) for how to publish a new version.
 
 ## 10. License and credit
 
