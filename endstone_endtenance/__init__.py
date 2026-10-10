@@ -277,7 +277,7 @@ When maintenance mode is on, only operators, players with the
 in config.toml may stay on the server. Everyone else is kicked, and the
 server list MOTD is changed to "Under Maintenance".
 
-Project: https://github.com/YOUR_GITHUB_USERNAME/endtenance
+Project: https://github.com/ducklingwhoo/endtenance
 """
 
 import json
